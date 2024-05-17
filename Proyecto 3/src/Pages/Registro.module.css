@@ -1,0 +1,55 @@
+.form-container {
+    max-width: 400px;
+    margin: auto; /* Ajusta automáticamente los márgenes horizontalmente */
+    margin-top: calc(50vh - 300px); /* Calcula el margen superior para centrarlo verticalmente */
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .input-error {
+    color: #dc3545;
+    font-size: 14px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .spinner {
+    margin-left: 5px;
+  }
+  
